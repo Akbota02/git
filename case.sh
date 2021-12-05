@@ -7,5 +7,7 @@ case $brand in
 	oppo)
 		echo "Скидка на телефоны $brand - 10%";;
 	huawei) 
-		echo "Скидка на телефоны $brand - 20%"
+		echo "Скидка на телефоны $brand - 20%";;
+	*)	
+		echo "На этот вид товара скидок нет"
 esac
